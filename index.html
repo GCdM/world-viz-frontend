@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>World Visualiser</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body id="body">
+
+    <hr>
+    <div id="header" class="header row">
+      <div class="col-4">
+        <label for="year-select">Select Year:</label>
+        <select id="year-select" name="year-select"></select>
+      </div>
+      <div class="col-4">
+        <h2>SELECTED COUNTRY</h2>
+      </div>
+      <div class="col-4">
+        <label for="country-select">Choose Country:</label>
+        <select id="country-select" name="country-select"></select>
+      </div>
+    </div>
+
+    <hr>
+    <div id="container" class="container text-center">
+      <div class="row">
+        <div class="col">
+          WORLD MAP
+        </div>
+        <div class="col">
+          STAT CARD
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          IM TREE CHART
+          <div id="i-chart">
+
+          </div>
+        </div>
+        <div class="col">
+          EM TREE CHART
+          <div id="e-chart">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script src="https://code.highcharts.com/modules/treemap.js"></script>
+    <script type="text/javascript" src="js/ChartController.js"></script>
+    <script type="text/javascript" src="js/Listener.js"></script>
+    <script type="text/javascript" src="js/DomController.js"></script>
+    <script type="text/javascript" src="js/Adapter.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
