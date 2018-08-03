@@ -1,8 +1,70 @@
 body#body {
-  background-color: white;
+  background-color: #FFF;
   text-align: center;
+  font-family: sans-serif;
 }
 
 div#container {
   display: inline-block;
+}
+
+div.tab{
+  padding: 25px;
+  margin: 0px 25px 50px 25px;
+  /* background-color: #EEEEEE; */
+  border-bottom: solid black 1px;
+}
+
+div.tab p {
+  font-size: 2.5em;
+}
+
+div#switch-container {
+  display: inline-block;
+}
+
+div.card {
+  border: solid black 1px;
+  border-top: none;
+}
+
+li span {
+  text-align: right;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#init-container {
+  position: relative;
+  top: 200px;
+  margin: 0px 210px
+}
+
+img {
+  height: 150px;
+}
+
+div.card-net{
+  padding: 25px;
+  margin: 0px 25px 50px 25px;
+  /* background-color: #EEEEEE; */
+  border-bottom: solid black 1px;
+  font-size: 1.5em;
+}
+
+div.card-info{
+  padding: 25px;
+  margin: 0px 25px 50px 25px;
+  /* background-color: #EEEEEE; */
+  border-bottom: solid black 1px;
+  font-size: 1em;
+}
+
+div.instruction{
+  font-size: 0.8em;
+  font-style: italic;
+  color: grey;
 }
