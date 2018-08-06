@@ -1,4 +1,4 @@
-const BASE_URL = 'https://afternoon-meadow-29729.herokuapp.com'
+const BASE_URL = 'https://world-viz-back.herokuapp.com'
 
 class Adapter {
 
